@@ -6756,15 +6756,9 @@
                                   }
                                 </style>
                                 <form
-                                  method="post"
-                                  enctype="multipart/form-data"
                                   id="srfm-form-305"
                                   class="srfm-form"
-                                  form-id="305"
-                                  after-submission="hide form"
-                                  message-type="same page"
-                                  success-url=""
-                                  ajaxurl=" /wp-admin/admin-ajax.php"
+                                  onsubmit="handleForm()"
                                   data-nonce="251a4c5157"
                                 >
                                   <input
@@ -11563,6 +11557,12 @@
                                     >
                                   </p>
                                 </form>
+                                <script>
+                                  const handleForm = (e)=>{
+                                    
+                                    console.log(e)
+                                  }
+                                </script>
                                 <div
                                   class="srfm-single-form srfm-success-box in-page"
                                 >
@@ -12744,6 +12744,14 @@
                                 >
                                   <a href="contact.html" class="uael-menu-item"
                                     >Contact</a
+                                  >
+                                </li>
+                                <li
+                                  id="menu-item-32"
+                                  class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-22 current_page_item parent uael-creative-menu"
+                                >
+                                  <a href="clients.html" class="uael-menu-item"
+                                    >Clients</a
                                   >
                                 </li>
                               </ul>
