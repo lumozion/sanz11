@@ -1,0 +1,57 @@
+/* Sticky Navbar CSS */
+#masthead {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  right: 0 !important;
+  z-index: 9999 !important;
+  width: 100% !important;
+}
+
+/* Add padding to body to prevent content from hiding behind fixed header */
+body {
+  padding-top: 80px !important;
+}
+
+/* Adjust padding for mobile */
+@media (max-width: 921px) {
+  body {
+    padding-top: 70px !important;
+  }
+}
+
+/* Ensure header background is visible */
+header {
+  background-color: white !important;
+}
+
+.ast-primary-header-bar {
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+/* Fix menu link colors */
+.menu-link {
+  color: black !important;
+}
+
+.ast-mobile-header-wrap {
+  height: 80px;
+}
+
+.ast-mobile-header-wrap .ast-primary-header-bar,
+.ast-primary-header-bar .site-primary-header-wrap {
+  min-height: 80px;
+}
+
+@media (max-width: 921px) {
+  .ast-mobile-header-wrap .ast-primary-header-bar,
+  .ast-primary-header-bar .site-primary-header-wrap {
+    min-height: 70px;
+  }
+}
+
+/* Smooth transition for better UX */
+#masthead {
+  transition: all 0.3s ease !important;
+}
