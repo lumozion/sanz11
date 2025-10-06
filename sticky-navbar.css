@@ -35,21 +35,7 @@ header {
   color: black !important;
 }
 
-.ast-mobile-header-wrap {
-  height: 80px;
-}
 
-.ast-mobile-header-wrap .ast-primary-header-bar,
-.ast-primary-header-bar .site-primary-header-wrap {
-  min-height: 80px;
-}
-
-@media (max-width: 921px) {
-  .ast-mobile-header-wrap .ast-primary-header-bar,
-  .ast-primary-header-bar .site-primary-header-wrap {
-    min-height: 70px;
-  }
-}
 
 /* Smooth transition for better UX */
 #masthead {
