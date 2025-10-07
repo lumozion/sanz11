@@ -1,18 +1,15 @@
-/* Fix flag images with correct sprite dimensions */
+/* Remove existing CSS and use correct intl-tel-input CSS */
 :root {
     --iti-path-flags-1x: url("https://unpkg.com/intl-tel-input@18.2.1/build/img/flags.png");
     --iti-path-flags-2x: url("https://unpkg.com/intl-tel-input@18.2.1/build/img/flags@2x.png");
-    --iti-flag-sprite-width: 5652px;
+    --iti-flag-sprite-width: 5630px;
     --iti-flag-sprite-height: 15px;
 }
 
 .iti__flag {
+    width: 20px !important;
+    height: 15px !important;
     background-image: var(--iti-path-flags-1x) !important;
-    background-size: var(--iti-flag-sprite-width) var(--iti-flag-sprite-height) !important;
-}
-
-@media (min-resolution: 2x) {
-    .iti__flag {
-        background-image: var(--iti-path-flags-2x) !important;
-    }
+    background-size: 5630px 15px !important;
+    background-repeat: no-repeat !important;
 }
