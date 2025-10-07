@@ -1,0 +1,105 @@
+/* Client Logos Responsive CSS */
+
+.client-logos-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: grid;
+  gap: 1rem;
+  /* Desktop: 5 columns */
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.logo-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem;
+  aspect-ratio: 1 / 1;
+  padding: 1rem;
+  transition: all 0.3s ease;
+  box-sizing: border-box;
+}
+
+.logo-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.logo-item img {
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.7;
+  transition: all 0.3s ease;
+}
+
+.logo-item:hover img {
+  opacity: 1;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 1024px) {
+  .client-logos-container {
+    /* Tablet: 4 columns */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0.875rem;
+    padding: 0 0.75rem;
+  }
+  
+  .logo-item {
+    padding: 0.875rem;
+  }
+}
+
+/* Small tablet styles */
+@media screen and (max-width: 768px) {
+  .client-logos-container {
+    /* Small tablet: 3 columns */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.75rem;
+    padding: 0 0.5rem;
+  }
+  
+  .logo-item {
+    padding: 0.75rem;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+  .client-logos-container {
+    /* Mobile: 2 columns */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+    padding: 0 0.25rem;
+  }
+  
+  .logo-item {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+  }
+}
+
+/* Very small mobile styles */
+@media screen and (max-width: 320px) {
+  .client-logos-container {
+    gap: 0.375rem;
+    padding: 0 0.125rem;
+  }
+  
+  .logo-item {
+    padding: 0.375rem;
+  }
+}
+
+/* Ensure container doesn't overflow */
+.client-logos-wrapper {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
