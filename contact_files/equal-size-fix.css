@@ -1,0 +1,34 @@
+/* Target all containers in the same row to have equal heights */
+.e-con.e-child {
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.elementor-widget-uael-infobox {
+    display: flex !important;
+    width: 100% !important;
+}
+
+.elementor-widget-container {
+    display: flex !important;
+    width: 100% !important;
+}
+
+.uael-module-content.uael-infobox {
+    display: flex !important;
+    flex-direction: column !important;
+    min-height: 320px !important;
+    width: 100% !important;
+}
+
+.uael-infobox-content {
+    flex: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+/* Force parent containers to flex */
+.e-con-full.e-flex.e-con.e-parent {
+    display: flex !important;
+    align-items: stretch !important;
+}
