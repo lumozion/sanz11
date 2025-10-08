@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .curved-footer {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            border-radius: 50px 50px 0 0;
+            margin-top: 50px;
+        }
+        
+        .curved-footer::before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            left: -100px;
+            right: -100px;
+            height: 100px;
+            background: inherit;
+            border-radius: 50%;
+            transform: scaleX(2);
+        }
+        
+        .footer-content {
+            position: relative;
+            z-index: 2;
+            padding: 60px 40px 40px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="curved-footer">
+        <div class="footer-content">
+            <h3>Your Footer Content</h3>
+            <p>Extended sides with curved design</p>
+        </div>
+    </div>
+</body>
+</html>
