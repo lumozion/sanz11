@@ -1,0 +1,19 @@
+/* Footer SVG size override */
+img[src*="footer.svg"] {
+    width: auto !important;
+    height: 120px !important;
+    max-width: 100% !important;
+    object-fit: contain !important;
+    margin-bottom: 20px !important;
+    display: block !important;
+}
+
+/* Footer alignment */
+.elementor-element-83d26f8 {
+    margin-bottom: 20px !important;
+}
+
+.elementor-icon-box-description {
+    margin-top: 0 !important;
+    line-height: 1.6 !important;
+}
