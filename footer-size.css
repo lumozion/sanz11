@@ -7,11 +7,26 @@ img[src*="footer.svg"] {
     margin-bottom: 0 !important;
 }
 
-/* Footer alignment - remove spacing */
+/* Footer PNG logo size and alignment */
+img[src*="footerism.png"] {
+    width: auto !important;
+    height: 100px !important;
+    max-width: 350px !important;
+    object-fit: contain !important;
+    display: block !important;
+    margin-left: 0 !important;
+}
+
+/* Footer alignment - left align logo with spacing */
 .elementor-element-83d26f8 {
     margin-bottom: 0 !important;
 }
 
+.elementor-element-83d26f8 .elementor-widget-container {
+    text-align: left !important;
+    display: block !important;
+}
+
 .elementor-element-8d57348 {
-    margin-top: -35px !important;
+    margin-top: 0 !important;
 }
