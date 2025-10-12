@@ -1,0 +1,25 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "SanzVim Infrastructure",
+  "alternateName": ["SanzVimInfra", "SanzVimInfrastructure", "SanzVim"],
+  "url": "https://www.sanzviminfra.com",
+  "logo": "https://www.sanzviminfra.com/sre/logoism.png",
+  "description": "Leading façade and infrastructure services company in Delhi",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "280, 4th Floor, Group 2, Sector B-2 Near DDA Flats, Narela",
+    "addressLocality": "Delhi",
+    "postalCode": "110040",
+    "addressCountry": "IN"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+91-9999999999",
+    "email": "info@sanzviminfra.com",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://m.facebook.com/100094566432604"
+  ]
+}
