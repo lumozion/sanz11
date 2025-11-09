@@ -1,0 +1,27 @@
+{
+  "name": "SanzVim Infrastructure - Façade & Infrastructure Services",
+  "short_name": "SanzVim",
+  "description": "Leading façade and infrastructure services company in Delhi",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#033231",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/leftover/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/leftover/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "construction", "infrastructure"],
+  "lang": "en-US",
+  "dir": "ltr"
+}

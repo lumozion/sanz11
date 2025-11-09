@@ -1,0 +1,13 @@
+/* TEAM */
+Company: SanzVim Infrastructure
+Location: Delhi, India
+Contact: info@sanzviminfra.com
+
+/* SITE */
+Last update: 2025/01/15
+Standards: HTML5, CSS3, JavaScript
+Components: Elementor, WordPress
+Software: VS Code, Git
+
+/* THANKS */
+To all our clients and partners who trust us with their projects.
